@@ -112,7 +112,6 @@ const Home = () => {
                 <Geographies geography={geoUrl}>
                   {({ geographies }) =>
                     geographies.map((geo, index) => {
-                      console.log(geo.properties.NAME);
                       return (
                         <Geography
                           fill="#343332"
